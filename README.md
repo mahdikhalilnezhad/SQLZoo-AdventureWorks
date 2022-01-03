@@ -24,4 +24,4 @@ This data is based on [Microsoft's AdventureWorks](https://docs.microsoft.com/en
 
 * ProductDescription(ProductDescriptionID, Description)
 
-https://sqlzoo.net/w/images/2/28/AdventureWorks.png
+![Database-relations](https://sqlzoo.net/w/images/2/28/AdventureWorks.png)
