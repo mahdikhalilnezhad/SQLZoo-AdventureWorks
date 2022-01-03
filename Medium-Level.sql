@@ -1,5 +1,5 @@
 -- 6. A "Single Item Order" is a customer order where only one item is ordered. Show the SalesOrderID and the UnitPrice for every Single Item Order.
-SELECT SalesOrderID, MAX(UnitPrice) as UnitPrice
+SELECT SalesOrderID, MAX(UnitPrice) UnitPrice
 FROM SalesOrderDetail
 GROUP BY SalesOrderID
 HAVING COUNT(SalesOrderID) = 1;
