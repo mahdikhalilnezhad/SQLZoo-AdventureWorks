@@ -1,7 +1,5 @@
 # SQLZoo-AdventureWorks-Challenge
 
-It includes easy, medium, hard and resit questions
-
 This data is based on [Microsoft's AdventureWorks](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms) database
 
 * Customer(CustomerID, FirstName, MiddleName, LastName, CompanyName, EmailAddress)
