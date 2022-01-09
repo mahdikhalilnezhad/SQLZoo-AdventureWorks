@@ -63,7 +63,7 @@ SELECT range, COUNT(rng) 'Num Orders', SUM(order_total) 'Total Value'
 FROM t2
 GROUP BY rng;
 
--- Identify the three most important cities. Show the break down of top level product category against city.
+-- 15.Identify the three most important cities. Show the break down of top level product category against city.
 WITH t1 AS (
   SELECT city, SUM(unitprice * orderqty) total_sales
   FROM SalesOrderDetail sod JOIN SalesOrderHeader soh ON sod.salesorderid = soh.salesorderid
