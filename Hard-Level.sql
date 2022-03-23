@@ -59,9 +59,9 @@ WITH t1 AS (
     END AS range
   FROM t1
 )
-SELECT range, COUNT(rng) 'Num Orders', SUM(order_total) 'Total Value'
+SELECT range, COUNT(range) 'Num Orders', SUM(order_total) 'Total Value'
 FROM t2
-GROUP BY rng;
+GROUP BY range;
 
 -- 15.Identify the three most important cities. Show the break down of top level product category against city.
 WITH t1 AS (
